@@ -11,4 +11,5 @@ for i in list1:
 
 print("first names : ",list1)
 print('Number of occurances of "a" : ',dict1)
+print("Total occurance of 'a' : ",sum(dict1.values()))
          
