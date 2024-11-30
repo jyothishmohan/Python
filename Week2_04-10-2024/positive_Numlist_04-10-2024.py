@@ -1,7 +1,11 @@
-list=[1,-1,2,3,4,5,6,-2,-10,10,30]
+list1=[]
 list2=[]
-for i in list:
+size=int(input("Enter size of the list : "))
+for i in range(size):
+    elements=int(input(f"Enter element {i+1} : "))
+    list1.append(elements)
+for i in list1:
     if(i>0):
         list2.append(i)
-print("New_list = ",list2)
+print("New list of positive numbers = ",list2)
         
